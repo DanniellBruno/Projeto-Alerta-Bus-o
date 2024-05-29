@@ -1,0 +1,26 @@
+
+body {
+    /*background-color: rgb(105,105,105);*/
+    background-image: url(bus.jpg);
+    color: white;
+    text-align: center;
+}
+
+.input{
+    border: none;
+    padding: 0.3%;
+    border-radius: 15px;
+  }
+  
+.btn2{
+    border: solid 1px blue;
+    border-radius: 20px;
+    color: blue;
+    background-color: white;
+    transition: background-color 0.5s ease, color 0.5s ease, transform 0.5s ease;
+}
+.btn2:hover{
+    background-color: rgb(39, 39, 104);
+    color: white;
+    transform: scale(1.2)
+}
